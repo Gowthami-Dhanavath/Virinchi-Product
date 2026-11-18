@@ -92,6 +92,24 @@
                 Use any tools you like, including AI assistants, web search,
                 and design or coding tools.
               </p>
+              <div class="candidate-response">
+                <h3>Candidate response · design decisions</h3>
+                <dl>
+                  <dt>What the original handles well</dt>
+                  <dd>The approved request is tied to individually identified physical units, so staff can see whether a specific projector or adapter is available before issuing it.</dd>
+                  <dt>Observed weakness</dt>
+                  <dd>The return action closes one equipment slip immediately. It cannot record the projector and speaker as returned while preserving the adapter as an open part of the same pickup. The next shift must infer the outstanding item from a message.</dd>
+                  <dt>Improvement and reasoning</dt>
+                  <dd>Keep an item-level loan record with explicit return status, promised time, and next-shift instructions. A persistent handover view makes the outstanding physical unit and its identifier actionable without closing the rest of the pickup.</dd>
+                  <dt>Same scenario in this version</dt>
+                  <dd>Issue the three approved units to Kabir. At 7:30 pm, record PR-04 and SP-02 as returned, then save Leela’s 9 am promise and the instruction to match the adapter ID. At handover, verify AD-12 (or flag a mismatch) before returning it. AD-12 stays open until checked in; Tara’s separate microphone loan remains open.</dd>
+                  <dt>What I retained</dt>
+                  <dd>The vanilla HTML, CSS and JavaScript app; offline browser storage; sample equipment, requests and initial microphone loan; shift clock; physical unit IDs; request screening; original Desk book; and restartable fictional sample data.</dd>
+                  <dt>One measurable observation</dt>
+                  <dd>At a real counter, measure the median time from the incoming shift opening the handover view to correctly identifying and checking in an outstanding unit, and count wrong-unit or prematurely closed records per handover.</dd>
+                </dl>
+                <p class="evidence-note">This is a proposed measure, not a result from a live deployment or user study.</p>
+              </div>
             </div>
           </details>
         </div>
