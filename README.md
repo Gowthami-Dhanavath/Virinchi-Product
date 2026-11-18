@@ -46,8 +46,4 @@ The application was not visually exercised in a browser at desktop or mobile siz
 - `tests/state-path.test.js` exercises the principal loan and handover state transitions without external packages.
 - Third-party icon license notices are in [third-party/lucide-LICENSE.txt](third-party/lucide-LICENSE.txt).
 
-## Submit your work
 
-1. [Fork Campus Stores](https://github.com/virinchi-healthcare/campus-stores/fork) into your GitHub account. Complete the candidate brief and push your changes to your public fork. In your README, point reviewers to your work and explain the decision you made.
-2. In your fork, open **Commits**, select the final commit you want reviewed, and copy the page URL. It should look like `https://github.com/YOUR-USERNAME/campus-stores/commit/COMMIT-SHA`.
-3. [Submit your work through the Google Form](https://docs.google.com/forms/d/e/1FAIpQLScvzoh1R4WS-SkiwAVBQbMvniieJYSoOEfLMyVo5CyjOvYUgQ/viewform). Your **roll number**, **email ID**, and **final commit link from your public fork** are required. Enter your roll number and email ID in the form only.
